@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffe6e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+   
+}
+
+.container {
+    background-color: #ffcccc;
+    border-radius: 15px;
+    border: 5px solid #f15d5d;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+}
+
+h2 {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+textarea {
+    width: 90%;
+    height: 100px;
+    padding: 10px;
+    border: 2px solid #ff9999;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.counter {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+span {
+    font-size: 18px;
+}
+#total{
+    color: purple;
+}
+#remaining{
+    color: orangered;
+
+}
